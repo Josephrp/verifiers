@@ -1,6 +1,6 @@
 [project]
 name = "deepconf"
-version = "0.1.0"
+version = "0.1.1"
 description = "DeepConf environment for confidence-aware LLM reasoning evaluation"
 tags = ["deepconf", "confidence", "reasoning", "single-turn", "math", "eval"]
 requires-python = ">=3.11"

@@ -1,5 +1,8 @@
 # deepconf
 
+contribute , report bugs , add comments , push code : 
+https://github.com/Josephrp/verifiers
+
 ### Overview
 - **Environment ID**: `deepconf`
 - **Short description**: DeepConf environment for confidence-aware LLM reasoning evaluation based on the DeepConf paper [https://arxiv.org/html/2508.15260v1](https://arxiv.org/html/2508.15260v1)
@@ -143,7 +146,6 @@ env_args = {
 For online confidence monitoring during generation, you need vLLM with DeepConf modifications:
 
 ```python
-# Enable online confidence monitoring (requires modified vLLM)
 client = OpenAI(
     base_url="http://localhost:8000/v1",
     api_key="dummy"
@@ -208,3 +210,4 @@ If you see all confidence metrics as 0.0:
 <!-- vf:begin:reports -->
 <p>No reports found. Run <code>uv run vf-eval deepconf -a '{"key": "value"}'</code> to generate one.</p>
 <!-- vf:end:reports -->
+
